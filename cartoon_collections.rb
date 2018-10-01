@@ -4,7 +4,6 @@ def roll_call_dwarves(names)
   end
 end
 
-
 def summon_captain_planet (array)
     arr= array.collect {|item| item.capitalize + "!"}
     return arr
@@ -18,7 +17,5 @@ def find_the_cheese (array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do|item|
      puts cheese_types.include?(item)
-
   end
-
 end
